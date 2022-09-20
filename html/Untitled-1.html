@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.krce.ac.in/">
+<link rel="stylesheet" href="https://www.krce.ac.in/">
+<body>
+
+<!-- Navigation -->
+<nav class="KRCE-bar KRCE-black">
+  <a href="https://www.krce.ac.in/" target="_blank">home</a>
+  <a href="https://www.krce.ac.in/" target="_blank">Department</a>
+  <a href="https://www.krce.ac.in/" target="_blank">Hostel</a>
+  <a href="https://www.krce.ac.in/" target="_blank">Contact</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="C:\Users\NAVIN\OneDrive\Desktop\html\ima1.jpg"
+  style="width:90%">
+  <img class="mySlides" src="C:\Users\NAVIN\OneDrive\Desktop\html\IMG_1.jpg"
+  style="width:90%">
+  <img class="mySlides" src="C:\Users\NAVIN\OneDrive\Desktop\html\IMG_2.jpg"
+  style="width:90%">
+  <img class="mySlides" src="C:\Users\NAVIN\OneDrive\Desktop\html\IMG_3.jpg"
+  style="width:90%">
+  <img class="mySlides" src="C:\Users\NAVIN\OneDrive\Desktop\html\principel.jpg"
+  style="width:90%">
+</section>
+
+<!-- Band Description -->
+<section class="KRCE-container KRCE-center KCE-content" style="max-width:600px">
+  <h2 class="KRCE-wide">THE Alumni</h2>
+  <p class="KRCE-opacity"><i>"Proud to be a KRCEians"</i></p>
+  <p class="KRCE-justify">An alumnus (masculine) or an alumna (feminine) of a college, university, or other school is a former student who has either attended or graduated in some fashion from the institution. The word is Latin and means "one who is being (or has been) nourished". The plural is alumni for men and mixed groups and alumnae for women.</p>
+</section>
+
+<!--  alumni name -->
+<section class="KRCE-row-padding KRCE-center KRCE-light-grey">
+     
+  
+    <marquee  behavior="scroll" direction="left">
+      <h1>VIJAY</h1> 
+    <img src="C:\Users\NAVIN\OneDrive\Desktop\html\vijay.jpg" alt="Random Name" style="width:20%">
+    <p>VIJAY is CEO of Google.</p>
+
+
+    <h1>AJITH</h1> 
+    
+    <img src="C:\Users\NAVIN\OneDrive\Desktop\html\ajith.jpg" alt="Random Name" style="width:20%">
+    <p>AJITH is CEO of TESLA.</p>
+ 
+    <h1>ROLLEX</h1>
+    <img src="C:\Users\NAVIN\OneDrive\Desktop\html\syrya.jpg" alt="Random Name" style="width:20%">
+    <p>ROLLEX is CEO of AMAZON.</p>
+  </marquee>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="KRCE-medium">
+  Powered by <a href="https://www.krce.ac.in/" target="_blank">krce</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
